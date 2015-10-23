@@ -8,6 +8,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 1. a tidy data set as described below
 2. a link to a Github repository which explains how the files work and how they are connected
    * a README.md file
+   * a tidy data set called "tidydata.txt" (the same one in 1)
    * a R script called "run_analysis.R" to perform the data analysis and complete the tasks below
    * a code book called "CodeBook.md" that describes the variables, data, and any transformations or work performed  
 
