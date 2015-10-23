@@ -11,6 +11,7 @@ This data set contains the average of each variable for each activity and each s
   * SITTING - value 4
   * STANDING - value 5
   * LAYING - value 6  
+
 ### Measurements
 In all these variable names, *'t'* stands for 'time', *'f'* for 'frequency', *'StdDev'* for 'standard deviation', *'acc'* for 'acceleration', *'Gyro'* for 'gyroscope', *'Mag'* for 'magnitude'.  
 *tBodyAccMeanX
@@ -99,6 +100,7 @@ In all these variable names, *'t'* stands for 'time', *'f'* for 'frequency', *'S
 *fBodyBodyAccJerkMagStdDev
 *fBodyBodyGyroMagStdDev
 *fBodyBodyGyroJerkMagStdDev  
+
 ##Source Data Information  
 ### Background  
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data.
@@ -129,17 +131,21 @@ For each record in the dataset it is provided:
 ### Set up
 1. download and the source data if it is not already in the current working directory
 2. load 'dplyr' package for cleaning  
+
 ### Merge test and training data sets
 1. read activity label and features into R 
 2. read test and training data into R
 3. combine subject, activity labels and measurements within test and training data sets
 4. merge test and data sets in Step 3 into one data frame  
+
 ### Extract mean and standard deviation measurements
 1. transform the data frame into 'tbl_df' object
-2. select columns that are mean or standard deviation together with subject and activity columns  
+2. select columns that are mean or standard deviation together with subject and activity columns
+  
 ### Use descriptive activity names and variable names
 1. replace activity ID with activity names with factor() function
 2. update other variable names with descriptive terms  
+
 ### Create the final tidy data set
 1. arrange and group the current data set first by subject and then by activity
 2. calculate the average of each variable for each subject and each activity with summarize_each() function
