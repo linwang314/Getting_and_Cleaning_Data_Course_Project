@@ -14,92 +14,92 @@ This data set contains the average of each variable for each activity and each s
 
 ### Measurements
 In all these variable names, *'t'* stands for 'time', *'f'* for 'frequency', *'StdDev'* for 'standard deviation', *'acc'* for 'acceleration', *'Gyro'* for 'gyroscope', *'Mag'* for 'magnitude'.  
-*tBodyAccMeanX
-*tBodyAccMeanY
-*tBodyAccMeanZ
-*tGravityAccMeanX
-*tGravityAccMeanY
-*tGravityAccMeanZ
-*tBodyAccJerkMeanX
-*tBodyAccJerkMeanY
-*tBodyAccJerkMeanZ
-*tBodyGyroMeanX
-*tBodyGyroMeanY
-*tBodyGyroMeanZ
-*tBodyGyroJerkMeanX
-*tBodyGyroJerkMeanY
-*tBodyGyroJerkMeanZ
-*tBodyAccMagMean
-*tGravityAccMagMean
-*tBodyAccJerkMagMean
-*tBodyGyroMagMean
-*tBodyGyroJerkMagMean
-*fBodyAccMeanX
-*fBodyAccMeanY
-*fBodyAccMeanZ
-*fBodyAccMeanFreqX
-*fBodyAccMeanFreqY
-*fBodyAccMeanFreqZ
-*fBodyAccJerkMeanX
-*fBodyAccJerkMeanY
-*fBodyAccJerkMeanZ
-*fBodyAccJerkMeanFreqX
-*fBodyAccJerkMeanFreqY
-*fBodyAccJerkMeanFreqZ
-*fBodyGyroMeanX
-*fBodyGyroMeanY
-*fBodyGyroMeanZ
-*fBodyGyroMeanFreqX
-*fBodyGyroMeanFreqY
-*fBodyGyroMeanFreqZ
-*fBodyAccMagMean
-*fBodyAccMagMeanFreq
-*fBodyBodyAccJerkMagMean
-*fBodyBodyAccJerkMagMeanFreq
-*fBodyBodyGyroMagMean
-*fBodyBodyGyroMagMeanFreq
-*fBodyBodyGyroJerkMagMean
-*fBodyBodyGyroJerkMagMeanFreq
-*angletBodyAccMeangravity
-*angletBodyAccJerkMeangravityMean
-*angletBodyGyroMeangravityMean
-*angletBodyGyroJerkMeangravityMean	
-*angleXgravityMean
-*angleYgravityMean
-*angleZgravityMean
-*tBodyAccStdDevX
-*tBodyAccStdDevY
-*tBodyAccStdDevZ
-*tGravityAccStdDevX
-*tGravityAccStdDevY
-*tGravityAccStdDevZ
-*tBodyAccJerkStdDevX
-*tBodyAccJerkStdDevY
-*tBodyAccJerkStdDevZ
-*tBodyGyroStdDevX
-*tBodyGyroStdDevY
-*tBodyGyroStdDevZ
-*tBodyGyroJerkStdDevX
-*tBodyGyroJerkStdDevY
-*tBodyGyroJerkStdDevZ
-*tBodyAccMagStdDev
-*tGravityAccMagStdDev
-*tBodyAccJerkMagStdDev
-*tBodyGyroMagStdDev
-*tBodyGyroJerkMagStdDev
-*fBodyAccStdDevX
-*fBodyAccStdDevY
-*fBodyAccStdDevZ
-*fBodyAccJerkStdDevX
-*fBodyAccJerkStdDevY
-*fBodyAccJerkStdDevZ
-*fBodyGyroStdDevX
-*fBodyGyroStdDevY
-*fBodyGyroStdDevZ
-*fBodyAccMagStdDev
-*fBodyBodyAccJerkMagStdDev
-*fBodyBodyGyroMagStdDev
-*fBodyBodyGyroJerkMagStdDev  
+* tBodyAccMeanX
+* tBodyAccMeanY
+* tBodyAccMeanZ
+* tGravityAccMeanX
+* tGravityAccMeanY
+* tGravityAccMeanZ
+* tBodyAccJerkMeanX
+* tBodyAccJerkMeanY
+* tBodyAccJerkMeanZ
+* tBodyGyroMeanX
+* tBodyGyroMeanY
+* tBodyGyroMeanZ
+* tBodyGyroJerkMeanX
+* tBodyGyroJerkMeanY
+* tBodyGyroJerkMeanZ
+* tBodyAccMagMean
+* tGravityAccMagMean
+* tBodyAccJerkMagMean
+* tBodyGyroMagMean
+* tBodyGyroJerkMagMean
+* fBodyAccMeanX
+* fBodyAccMeanY
+* fBodyAccMeanZ
+* fBodyAccMeanFreqX
+* fBodyAccMeanFreqY
+* fBodyAccMeanFreqZ
+* fBodyAccJerkMeanX
+* fBodyAccJerkMeanY
+* fBodyAccJerkMeanZ
+* fBodyAccJerkMeanFreqX
+* fBodyAccJerkMeanFreqY
+* fBodyAccJerkMeanFreqZ
+* fBodyGyroMeanX
+* fBodyGyroMeanY
+* fBodyGyroMeanZ
+* fBodyGyroMeanFreqX
+* fBodyGyroMeanFreqY
+* fBodyGyroMeanFreqZ
+* fBodyAccMagMean
+* fBodyAccMagMeanFreq
+* fBodyBodyAccJerkMagMean
+* fBodyBodyAccJerkMagMeanFreq
+* fBodyBodyGyroMagMean
+* fBodyBodyGyroMagMeanFreq
+* fBodyBodyGyroJerkMagMean
+* fBodyBodyGyroJerkMagMeanFreq
+* angletBodyAccMeangravity
+* angletBodyAccJerkMeangravityMean
+* angletBodyGyroMeangravityMean
+* angletBodyGyroJerkMeangravityMean	
+* angleXgravityMean
+* angleYgravityMean
+* angleZgravityMean
+* tBodyAccStdDevX
+* tBodyAccStdDevY
+* tBodyAccStdDevZ
+* tGravityAccStdDevX
+* tGravityAccStdDevY
+* tGravityAccStdDevZ
+* tBodyAccJerkStdDevX
+* tBodyAccJerkStdDevY
+* tBodyAccJerkStdDevZ
+* tBodyGyroStdDevX
+* tBodyGyroStdDevY
+* tBodyGyroStdDevZ
+* tBodyGyroJerkStdDevX
+* tBodyGyroJerkStdDevY
+* tBodyGyroJerkStdDevZ
+* tBodyAccMagStdDev
+* tGravityAccMagStdDev
+* tBodyAccJerkMagStdDev
+* tBodyGyroMagStdDev
+* tBodyGyroJerkMagStdDev
+* fBodyAccStdDevX
+* fBodyAccStdDevY
+* fBodyAccStdDevZ
+* fBodyAccJerkStdDevX
+* fBodyAccJerkStdDevY
+* fBodyAccJerkStdDevZ
+* fBodyGyroStdDevX
+* fBodyGyroStdDevY
+* fBodyGyroStdDevZ
+* fBodyAccMagStdDev
+* fBodyBodyAccJerkMagStdDev
+* fBodyBodyGyroMagStdDev
+* fBodyBodyGyroJerkMagStdDev  
 
 ##Source Data Information  
 ### Background  
