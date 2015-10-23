@@ -5,11 +5,11 @@ One of the most exciting areas in all of data science right now is wearable comp
 Here are the [data](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) for the project:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 ## Items to submit
-1. a tidy data set as described below
-2. a link to a Github repository which explains how the files work and how they are connected
+* a tidy data set as described below
+* a link to a Github repository which explains how the files work and how they are connected
    * a README.md file
    * a R script called "run_analysis.R" to perform the data analysis and complete the tasks below
-   * a code book called "CodeBook.md" that describes the variables, data, and any transformations or work that you performed to clean up the data 
+   * a code book called "CodeBook.md" that describes the variables, data, and any transformations or work that you performed to clean up the data
 ## Tasks
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
